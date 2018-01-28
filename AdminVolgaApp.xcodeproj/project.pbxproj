@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DC301047201E6B6000CC52A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC301046201E6B6000CC52A7 /* AppDelegate.swift */; };
-		DC301049201E6B6000CC52A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC301048201E6B6000CC52A7 /* ViewController.swift */; };
+		DC301049201E6B6000CC52A7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC301048201E6B6000CC52A7 /* MainViewController.swift */; };
 		DC30104C201E6B6000CC52A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30104A201E6B6000CC52A7 /* Main.storyboard */; };
 		DC30104E201E6B6000CC52A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC30104D201E6B6000CC52A7 /* Assets.xcassets */; };
 		DC301051201E6B6000CC52A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30104F201E6B6000CC52A7 /* LaunchScreen.storyboard */; };
 		DC30105C201E6B6000CC52A7 /* AdminVolgaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30105B201E6B6000CC52A7 /* AdminVolgaAppTests.swift */; };
+		DC30106A201E6EAA00CC52A7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC301069201E6EAA00CC52A7 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		DC301043201E6B6000CC52A7 /* AdminVolgaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdminVolgaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC301046201E6B6000CC52A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC301048201E6B6000CC52A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC301048201E6B6000CC52A7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DC30104B201E6B6000CC52A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC30104D201E6B6000CC52A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC301050201E6B6000CC52A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		DC301057201E6B6000CC52A7 /* AdminVolgaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdminVolgaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC30105B201E6B6000CC52A7 /* AdminVolgaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminVolgaAppTests.swift; sourceTree = "<group>"; };
 		DC30105D201E6B6100CC52A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC301069201E6EAA00CC52A7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,10 @@
 		DC301045201E6B6000CC52A7 /* AdminVolgaApp */ = {
 			isa = PBXGroup;
 			children = (
+				DC301068201E6E5200CC52A7 /* Controller */,
+				DC301067201E6E4900CC52A7 /* Model */,
+				DC301066201E6E3C00CC52A7 /* View */,
 				DC301046201E6B6000CC52A7 /* AppDelegate.swift */,
-				DC301048201E6B6000CC52A7 /* ViewController.swift */,
 				DC30104A201E6B6000CC52A7 /* Main.storyboard */,
 				DC30104D201E6B6000CC52A7 /* Assets.xcassets */,
 				DC30104F201E6B6000CC52A7 /* LaunchScreen.storyboard */,
@@ -94,6 +98,29 @@
 				DC30105D201E6B6100CC52A7 /* Info.plist */,
 			);
 			path = AdminVolgaAppTests;
+			sourceTree = "<group>";
+		};
+		DC301066201E6E3C00CC52A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC301069201E6EAA00CC52A7 /* CustomButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC301067201E6E4900CC52A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC301068201E6E5200CC52A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC301048201E6B6000CC52A7 /* MainViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC301049201E6B6000CC52A7 /* ViewController.swift in Sources */,
+				DC301049201E6B6000CC52A7 /* MainViewController.swift in Sources */,
 				DC301047201E6B6000CC52A7 /* AppDelegate.swift in Sources */,
+				DC30106A201E6EAA00CC52A7 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
