@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1016798282228-b48r1p2klsbvmpiebc66bc8l9j8kdjns.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1016798282228-b48r1p2klsbvmpiebc66bc8l9j8kdjns</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAMyieIwvZHxp3JFWakzJRn2amx48eA1Is</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1016798282228</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>XC-ios-AdminVolgaApp</string>
+	<key>PROJECT_ID</key>
+	<string>volgavintage-ebe97</string>
+	<key>STORAGE_BUCKET</key>
+	<string>volgavintage-ebe97.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1016798282228:ios:3648cf2b3edf5a90</string>
+	<key>DATABASE_URL</key>
+	<string>https://volgavintage-ebe97.firebaseio.com</string>
+</dict>
+</plist>

@@ -26,14 +26,20 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Add a new item"/>
+                                <connections>
+                                    <action selector="itemAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jY6-kk-bSY"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Cl-dW-dak" customClass="CustomButton" customModule="AdminVolgaApp" customModuleProvider="target">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Cl-dW-dak" customClass="CustomButton" customModule="AdminVolgaApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="393.5" width="375" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="C8X-VK-Wk0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Show all items"/>
+                                <connections>
+                                    <action selector="itemAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iVY-Pf-WqA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -48,10 +54,82 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Admin " id="x1y-aD-CxS"/>
+                    <connections>
+                        <segue destination="uE5-2z-KBT" kind="show" identifier="cat" id="9tU-Hb-cqW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="439" y="117"/>
+        </scene>
+        <!--Category View Controller-->
+        <scene sceneID="83x-S4-0tD">
+            <objects>
+                <tableViewController id="uE5-2z-KBT" customClass="CategoryViewController" customModule="AdminVolgaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jo3-ee-XiZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="JDt-eO-jQx" rowHeight="50" style="IBUITableViewCellStyleDefault" id="2HH-4m-wX0">
+                                <rect key="frame" x="0.0" y="28" width="375" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2HH-4m-wX0" id="UtZ-iH-I8H">
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="49.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="MEN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JDt-eO-jQx">
+                                            <rect key="frame" x="16" y="0.0" width="324" height="49.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="uE5-2z-KBT" id="ScM-oq-j3H"/>
+                            <outlet property="delegate" destination="uE5-2z-KBT" id="S9s-kS-X5H"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <segue destination="Mrg-z5-297" kind="show" id="Ioi-q5-mlC"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QJz-p4-6KF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1159" y="116"/>
+        </scene>
+        <!--Subcategory View Controller-->
+        <scene sceneID="dit-A4-dvZ">
+            <objects>
+                <tableViewController id="Mrg-z5-297" customClass="SubcategoryViewController" customModule="AdminVolgaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="eDO-GH-y7N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="5od-T9-9Ci">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5od-T9-9Ci" id="4VF-16-46U">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Mrg-z5-297" id="Se1-71-sgs"/>
+                            <outlet property="delegate" destination="Mrg-z5-297" id="0yD-wr-g0B"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bZl-Ni-gDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1866" y="116"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qiT-XP-8qp">
@@ -69,7 +147,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dAR-kh-WrT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-369" y="117"/>
+            <point key="canvasLocation" x="-305" y="116"/>
         </scene>
     </scenes>
 </document>

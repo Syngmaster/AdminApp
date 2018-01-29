@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8F188F73D7BD49AADEDEE21DB59D73 /* Pods-AdminVolgaAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2EA02B816C7DF541B73AFEB3EA5310 /* Pods-AdminVolgaAppTests-dummy.m */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B272ECBC5206EB79C715670F53E3F18 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A72AC516E60418FDB8657DB3342E740 /* Pods-AdminVolgaApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 526AD56F83405DF6B7C0C86A4C87DEEB /* Pods-AdminVolgaApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39252B2E689B2B61AFE2AF50651B130C /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840C537264AF2D32C409057079FEC824 /* Pods-AdminVolgaAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F96D36C95585DB1559B573DF6FDB6C15 /* Pods-AdminVolgaAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		99DDED3773D682F042350448A2DA96B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D516BA14A95DB3165D133355746BC2D1 /* Pods-AdminVolgaApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E301FF8E8736A83EB49C051BDAD278C4 /* Pods-AdminVolgaApp-dummy.m */; };
+		DA06EED90D946DA3702BBA13045E2FB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D49FCFB1469996E9BF2795DC070ACD /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BA6DF1FE29A0E9BEA1803603149102 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 410D9B4178C76FA5EDF8160F6514C971 /* GoogleToolboxForMac-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9951638FD7A0DC7B11C7D2879AECCC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		0412EF6ED7A81632DFF700978CA85A93 /* Pods-AdminVolgaAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdminVolgaAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		25A132F1869837E9A760EEB488B5D44B /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		26AD7E547C4310BEF3AB0B7E93A6A400 /* Pods-AdminVolgaAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AdminVolgaAppTests.modulemap"; sourceTree = "<group>"; };
+		2849118E66F8FB23260AFEB06402A6D0 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		316D33BB82340BF88339C531958BC192 /* Pods-AdminVolgaApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdminVolgaApp-frameworks.sh"; sourceTree = "<group>"; };
+		39252B2E689B2B61AFE2AF50651B130C /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		3C11B24327DCA859F51CF1668C211D68 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		3F159B028DF4D03406996DC5D5015222 /* Pods-AdminVolgaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdminVolgaApp.release.xcconfig"; sourceTree = "<group>"; };
+		410D9B4178C76FA5EDF8160F6514C971 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		4D48B278ED3B1FAE2133F48FAC325F12 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		4E3D85E5CFE390FA56392981E48A8AD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526AD56F83405DF6B7C0C86A4C87DEEB /* Pods-AdminVolgaApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdminVolgaApp-umbrella.h"; sourceTree = "<group>"; };
+		58F5FFC55811FEFFA2D7734916DC9CCE /* Pods-AdminVolgaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdminVolgaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5B272ECBC5206EB79C715670F53E3F18 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		63A95764A9B91E209726C51822B13584 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63FF6A0ED310CEB70BD8DD1F05A62668 /* Pods-AdminVolgaApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AdminVolgaApp.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69D49FCFB1469996E9BF2795DC070ACD /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		82F695214BFEC21E5EC5584677E2612B /* Pods-AdminVolgaApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdminVolgaApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0561C684E76D9E05767934CB4456356 /* Pods-AdminVolgaAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdminVolgaAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AFB89F716C2D26D48CFE57A1FD259A7C /* Pods-AdminVolgaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdminVolgaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B86933D0884BAE0B713B17A01462418A /* Pods-AdminVolgaApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdminVolgaApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BBEF9555ABDC5D6ACB9DCB58763B04B4 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		BC996FCC8615C25CA9F1E71B5A0448ED /* Pods-AdminVolgaApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdminVolgaApp-resources.sh"; sourceTree = "<group>"; };
+		BE2EA02B816C7DF541B73AFEB3EA5310 /* Pods-AdminVolgaAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdminVolgaAppTests-dummy.m"; sourceTree = "<group>"; };
+		C513DE6CEE1AAD23EFE32FEA6B6B6B9C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		C88CEAD9913B6F15ACC765259A53796E /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		D7A757F6AAE1DA46680D7802B30857A4 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		D91606C437B9AE803833B8F44A5383CD /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		DF84A06A5CD9773A685E1C694F4B35C0 /* Pods_AdminVolgaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdminVolgaAppTests.framework; path = "Pods-AdminVolgaAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9897F43BB3A520EAADD7B45087DF7C /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E301FF8E8736A83EB49C051BDAD278C4 /* Pods-AdminVolgaApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdminVolgaApp-dummy.m"; sourceTree = "<group>"; };
+		E4D86CE6597BA4C8DA1C62AF2A4A5005 /* Pods_AdminVolgaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdminVolgaApp.framework; path = "Pods-AdminVolgaApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E96AB7074C5C88E23783C784E80572 /* Pods-AdminVolgaAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdminVolgaAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC85687D1ADF501B54184A5C125EB1BC /* Pods-AdminVolgaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdminVolgaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0C8DE2F3AD532F9EA7A03E5D14F3E7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BA6DF1FE29A0E9BEA1803603149102 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		F8B4F9F33548A1D7C469BEA2CAE78EB9 /* Pods-AdminVolgaAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdminVolgaAppTests-resources.sh"; sourceTree = "<group>"; };
+		F96D36C95585DB1559B573DF6FDB6C15 /* Pods-AdminVolgaAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdminVolgaAppTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2631F93B12595F1B19620D8478B99FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DDED3773D682F042350448A2DA96B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9EFA5F0AD39C55A543E98B6A488FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA06EED90D946DA3702BBA13045E2FB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12EAE32E2839BFBC415F7566CF95AFBB /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				3C11B24327DCA859F51CF1668C211D68 /* FIRInstanceID.h */,
+				181A71086EB9D9CA4B5AD46F1E275CDD /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		181A71086EB9D9CA4B5AD46F1E275CDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D48B278ED3B1FAE2133F48FAC325F12 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23FA9A582C978A551CD5E06C088ED3CF /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				93616DDBC4CE13C5363E8B47C61FAB3C /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		3442BDD8A045E6455DD06D9760C724A4 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				5B272ECBC5206EB79C715670F53E3F18 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		3B7E4499FCB4021B32AC811764CDB508 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				3442BDD8A045E6455DD06D9760C724A4 /* Defines */,
+				61CF4BAAE013DF8B0007735CDAD7C659 /* NSData+zlib */,
+				4CFEB72FCD954675E0BF88DE27251392 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		4CFEB72FCD954675E0BF88DE27251392 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A132F1869837E9A760EEB488B5D44B /* GoogleToolboxForMac.modulemap */,
+				00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */,
+				410D9B4178C76FA5EDF8160F6514C971 /* GoogleToolboxForMac-dummy.m */,
+				D7A757F6AAE1DA46680D7802B30857A4 /* GoogleToolboxForMac-prefix.pch */,
+				39252B2E689B2B61AFE2AF50651B130C /* GoogleToolboxForMac-umbrella.h */,
+				F0C8DE2F3AD532F9EA7A03E5D14F3E7D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		5852E0E12FD142FD5B46C5CD973C8C15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBEF9555ABDC5D6ACB9DCB58763B04B4 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61CF4BAAE013DF8B0007735CDAD7C659 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				69D49FCFB1469996E9BF2795DC070ACD /* GTMNSData+zlib.h */,
+				F4BA6DF1FE29A0E9BEA1803603149102 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		6960BD0665A65D2B77A4EB34288B2D9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88CEAD9913B6F15ACC765259A53796E /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F506CA6524FFCF1F0E146B25D4F19C7 /* Pods-AdminVolgaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E3D85E5CFE390FA56392981E48A8AD7 /* Info.plist */,
+				26AD7E547C4310BEF3AB0B7E93A6A400 /* Pods-AdminVolgaAppTests.modulemap */,
+				A0561C684E76D9E05767934CB4456356 /* Pods-AdminVolgaAppTests-acknowledgements.markdown */,
+				E8E96AB7074C5C88E23783C784E80572 /* Pods-AdminVolgaAppTests-acknowledgements.plist */,
+				BE2EA02B816C7DF541B73AFEB3EA5310 /* Pods-AdminVolgaAppTests-dummy.m */,
+				0412EF6ED7A81632DFF700978CA85A93 /* Pods-AdminVolgaAppTests-frameworks.sh */,
+				F8B4F9F33548A1D7C469BEA2CAE78EB9 /* Pods-AdminVolgaAppTests-resources.sh */,
+				F96D36C95585DB1559B573DF6FDB6C15 /* Pods-AdminVolgaAppTests-umbrella.h */,
+				AFB89F716C2D26D48CFE57A1FD259A7C /* Pods-AdminVolgaAppTests.debug.xcconfig */,
+				EC85687D1ADF501B54184A5C125EB1BC /* Pods-AdminVolgaAppTests.release.xcconfig */,
+			);
+			name = "Pods-AdminVolgaAppTests";
+			path = "Target Support Files/Pods-AdminVolgaAppTests";
+			sourceTree = "<group>";
+		};
+		728F1DF19867C27C9AFBFBAB877C5075 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				BAC0B0732C703D4483E9E41179261975 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		77294A3095DD86741E1692D62E33E1BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				728F1DF19867C27C9AFBFBAB877C5075 /* Firebase */,
+				E3A34E1D8982976A7CD926B0E2364D16 /* FirebaseAnalytics */,
+				23FA9A582C978A551CD5E06C088ED3CF /* FirebaseCore */,
+				12EAE32E2839BFBC415F7566CF95AFBB /* FirebaseInstanceID */,
+				CE09658FF71C2EDAEA4A95E0579F933C /* GoogleInterchangeUtilities */,
+				C3D8CF558B907F378D137FEBD6CC55C1 /* GoogleSymbolUtilities */,
+				3B7E4499FCB4021B32AC811764CDB508 /* GoogleToolboxForMac */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				77294A3095DD86741E1692D62E33E1BE /* Pods */,
+				880B796850F8294B9662B1D09EC8339A /* Products */,
+				D570055B48BE462C19F2554F99EE60B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		880B796850F8294B9662B1D09EC8339A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF9897F43BB3A520EAADD7B45087DF7C /* GoogleToolboxForMac.framework */,
+				E4D86CE6597BA4C8DA1C62AF2A4A5005 /* Pods_AdminVolgaApp.framework */,
+				DF84A06A5CD9773A685E1C694F4B35C0 /* Pods_AdminVolgaAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93616DDBC4CE13C5363E8B47C61FAB3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D91606C437B9AE803833B8F44A5383CD /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAC0B0732C703D4483E9E41179261975 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2849118E66F8FB23260AFEB06402A6D0 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D8CF558B907F378D137FEBD6CC55C1 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				6960BD0665A65D2B77A4EB34288B2D9F /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		CE09658FF71C2EDAEA4A95E0579F933C /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5852E0E12FD142FD5B46C5CD973C8C15 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D570055B48BE462C19F2554F99EE60B6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED43832B4DCF3784BEC792DE37F5758A /* Pods-AdminVolgaApp */,
+				6F506CA6524FFCF1F0E146B25D4F19C7 /* Pods-AdminVolgaAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3A34E1D8982976A7CD926B0E2364D16 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				F9B96C77E21B1A9EE878033087FA1BE7 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		ED43832B4DCF3784BEC792DE37F5758A /* Pods-AdminVolgaApp */ = {
+			isa = PBXGroup;
+			children = (
+				63A95764A9B91E209726C51822B13584 /* Info.plist */,
+				63FF6A0ED310CEB70BD8DD1F05A62668 /* Pods-AdminVolgaApp.modulemap */,
+				B86933D0884BAE0B713B17A01462418A /* Pods-AdminVolgaApp-acknowledgements.markdown */,
+				82F695214BFEC21E5EC5584677E2612B /* Pods-AdminVolgaApp-acknowledgements.plist */,
+				E301FF8E8736A83EB49C051BDAD278C4 /* Pods-AdminVolgaApp-dummy.m */,
+				316D33BB82340BF88339C531958BC192 /* Pods-AdminVolgaApp-frameworks.sh */,
+				BC996FCC8615C25CA9F1E71B5A0448ED /* Pods-AdminVolgaApp-resources.sh */,
+				526AD56F83405DF6B7C0C86A4C87DEEB /* Pods-AdminVolgaApp-umbrella.h */,
+				58F5FFC55811FEFFA2D7734916DC9CCE /* Pods-AdminVolgaApp.debug.xcconfig */,
+				3F159B028DF4D03406996DC5D5015222 /* Pods-AdminVolgaApp.release.xcconfig */,
+			);
+			name = "Pods-AdminVolgaApp";
+			path = "Target Support Files/Pods-AdminVolgaApp";
+			sourceTree = "<group>";
+		};
+		F9B96C77E21B1A9EE878033087FA1BE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C513DE6CEE1AAD23EFE32FEA6B6B6B9C /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8C948CAC3D4D955C17B796A6247E6237 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C537264AF2D32C409057079FEC824 /* Pods-AdminVolgaAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1E503E9A848F6327DCF297B1B4F0F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A72AC516E60418FDB8657DB3342E740 /* Pods-AdminVolgaApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = DF9897F43BB3A520EAADD7B45087DF7C /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6598A6AE2787203CC46CAC1986FB358E /* Pods-AdminVolgaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88B3E5451DBB66AC46E98123A3E8ED8 /* Build configuration list for PBXNativeTarget "Pods-AdminVolgaApp" */;
+			buildPhases = (
+				14CFB9FA23362F5FA7D59656717D3DB0 /* Sources */,
+				2631F93B12595F1B19620D8478B99FEB /* Frameworks */,
+				AF1E503E9A848F6327DCF297B1B4F0F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309891AEEECB2B34E7766A34D8B054C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-AdminVolgaApp";
+			productName = "Pods-AdminVolgaApp";
+			productReference = E4D86CE6597BA4C8DA1C62AF2A4A5005 /* Pods_AdminVolgaApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D41AF5C99613E61DD1DD4DADE652B68B /* Pods-AdminVolgaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D101AE2D2C78EB43E71C80918A0FFBC5 /* Build configuration list for PBXNativeTarget "Pods-AdminVolgaAppTests" */;
+			buildPhases = (
+				436DA8F621A30FC3F50252D995A1BF56 /* Sources */,
+				9A9EFA5F0AD39C55A543E98B6A488FA9 /* Frameworks */,
+				8C948CAC3D4D955C17B796A6247E6237 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AdminVolgaAppTests";
+			productName = "Pods-AdminVolgaAppTests";
+			productReference = DF84A06A5CD9773A685E1C694F4B35C0 /* Pods_AdminVolgaAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 880B796850F8294B9662B1D09EC8339A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				6598A6AE2787203CC46CAC1986FB358E /* Pods-AdminVolgaApp */,
+				D41AF5C99613E61DD1DD4DADE652B68B /* Pods-AdminVolgaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CFB9FA23362F5FA7D59656717D3DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D516BA14A95DB3165D133355746BC2D1 /* Pods-AdminVolgaApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436DA8F621A30FC3F50252D995A1BF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8F188F73D7BD49AADEDEE21DB59D73 /* Pods-AdminVolgaAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		309891AEEECB2B34E7766A34D8B054C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = A9951638FD7A0DC7B11C7D2879AECCC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BDD21F346E40987D7631D6F961D2E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB89F716C2D26D48CFE57A1FD259A7C /* Pods-AdminVolgaAppTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AdminVolgaAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdminVolgaAppTests/Pods-AdminVolgaAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdminVolgaAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		34A2B679B3E5F5A956E5A72F6F959083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC85687D1ADF501B54184A5C125EB1BC /* Pods-AdminVolgaAppTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AdminVolgaAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdminVolgaAppTests/Pods-AdminVolgaAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdminVolgaAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FD46B2551582DF47CD95CD77DDF6B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69CF3E1201D8CCB1D8C24CEEC6655E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F5FFC55811FEFFA2D7734916DC9CCE /* Pods-AdminVolgaApp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AdminVolgaApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdminVolgaApp/Pods-AdminVolgaApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdminVolgaApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		995C3A53DEAA96B47E756185345E180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CE7CB5B4D512FA686DBB82CEE2E11C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F159B028DF4D03406996DC5D5015222 /* Pods-AdminVolgaApp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AdminVolgaApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdminVolgaApp/Pods-AdminVolgaApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdminVolgaApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D19459BBA4D29829D7678D9CDFE01E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C3A53DEAA96B47E756185345E180D /* Debug */,
+				1D23278938ADF334174C5BF2A4B6B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19459BBA4D29829D7678D9CDFE01E64 /* Debug */,
+				4FD46B2551582DF47CD95CD77DDF6B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D101AE2D2C78EB43E71C80918A0FFBC5 /* Build configuration list for PBXNativeTarget "Pods-AdminVolgaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDD21F346E40987D7631D6F961D2E18 /* Debug */,
+				34A2B679B3E5F5A956E5A72F6F959083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88B3E5451DBB66AC46E98123A3E8ED8 /* Build configuration list for PBXNativeTarget "Pods-AdminVolgaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CF3E1201D8CCB1D8C24CEEC6655E30 /* Debug */,
+				CE7CB5B4D512FA686DBB82CEE2E11C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
