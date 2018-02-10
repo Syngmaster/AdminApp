@@ -10,34 +10,29 @@ import UIKit
 
 class CategoryViewController: UITableViewController {
     
-    var type:Int!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    // MARK: - Table view data source
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        if type == 0 {
-            return 3
-        } else {
-            return 4
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "subcat" {
+            let dvc = segue.destination as! SubcategoryViewController
+            let selectedCell = sender as! UITableViewCell
+            dvc.category = selectedCell.textLabel?.text
         }
     }
 
+}
+
+// MARK: - Table view data source
+
+extension CategoryViewController {
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 4
+    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
@@ -46,30 +41,28 @@ class CategoryViewController: UITableViewController {
         case 0: cell.textLabel?.text = "MEN"
         case 1: cell.textLabel?.text = "WOMEN"
         case 2: cell.textLabel?.text = "UNISEX"
+        case 3: cell.textLabel?.text = "SALE"
         default: break
         }
-        
-        if type == 1 {
-            if indexPath.row == 3 {
-                cell.textLabel?.text = "SALE"
-            }
-//            if let saleCell = tableView.cellForRow(at: indexPath) {
-//                if let saleCellIndex = tableView.indexPath(for: saleCell) {
-//                    if saleCellIndex.row == 3 {
-//                        saleCell.textLabel?.text = "SALE"
-//                    }
-//                }
-//            }
 
-            
-        }
         return cell
     }
+    
+}
+    //MARK: TableViewDelegate
+
+extension CategoryViewController {
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 60
     }
- 
-
-
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        if let selectedCell = tableView.cellForRow(at: indexPath) {
+            self.performSegue(withIdentifier: "subcat", sender: selectedCell)
+        }
+        
+    }
+    
 }

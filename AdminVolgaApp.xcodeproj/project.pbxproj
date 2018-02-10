@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		366C8BFACFF1E7344C553950 /* Pods_AdminVolgaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49729639C7A1FAE0683F5E00 /* Pods_AdminVolgaAppTests.framework */; };
 		BD54107790775E3F40BB9BE3 /* Pods_AdminVolgaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A598A3E42228E7004091B64 /* Pods_AdminVolgaApp.framework */; };
+		DC1245E1202CD69B00FB7CA5 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1245E0202CD69B00FB7CA5 /* DictionaryExtension.swift */; };
+		DC1245E3202CDFE200FB7CA5 /* ItemsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1245E2202CDFE200FB7CA5 /* ItemsListViewController.swift */; };
+		DC2CB03E2028EB1F007506FD /* AddItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2CB03D2028EB1F007506FD /* AddItemViewCell.swift */; };
 		DC301047201E6B6000CC52A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC301046201E6B6000CC52A7 /* AppDelegate.swift */; };
 		DC301049201E6B6000CC52A7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC301048201E6B6000CC52A7 /* MainViewController.swift */; };
 		DC30104C201E6B6000CC52A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30104A201E6B6000CC52A7 /* Main.storyboard */; };
@@ -20,6 +23,10 @@
 		DC30106E201E72E000CC52A7 /* SubcategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30106D201E72E000CC52A7 /* SubcategoryViewController.swift */; };
 		DC301070201E766400CC52A7 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30106F201E766400CC52A7 /* ItemModel.swift */; };
 		DC301072201FAD7500CC52A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC301071201FAD7500CC52A7 /* GoogleService-Info.plist */; };
+		DC301074201FB19300CC52A7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC301073201FB19300CC52A7 /* DataManager.swift */; };
+		DC301076201FB22000CC52A7 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC301075201FB22000CC52A7 /* CategoryModel.swift */; };
+		DC83F105202257CF00788594 /* AddSubcategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83F104202257CF00788594 /* AddSubcategoryViewController.swift */; };
+		DC83F1072027AE0C00788594 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83F1062027AE0C00788594 /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,9 @@
 		6AEE83C026F5EE8719D58E53 /* Pods-AdminVolgaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminVolgaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdminVolgaApp/Pods-AdminVolgaApp.release.xcconfig"; sourceTree = "<group>"; };
 		8A598A3E42228E7004091B64 /* Pods_AdminVolgaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdminVolgaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B21DF0FF68B624697577CD4 /* Pods-AdminVolgaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminVolgaAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdminVolgaAppTests/Pods-AdminVolgaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1245E0202CD69B00FB7CA5 /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		DC1245E2202CDFE200FB7CA5 /* ItemsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListViewController.swift; sourceTree = "<group>"; };
+		DC2CB03D2028EB1F007506FD /* AddItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewCell.swift; sourceTree = "<group>"; };
 		DC301043201E6B6000CC52A7 /* AdminVolgaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdminVolgaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC301046201E6B6000CC52A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC301048201E6B6000CC52A7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +63,10 @@
 		DC30106D201E72E000CC52A7 /* SubcategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubcategoryViewController.swift; sourceTree = "<group>"; };
 		DC30106F201E766400CC52A7 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		DC301071201FAD7500CC52A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DC301073201FB19300CC52A7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		DC301075201FB22000CC52A7 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		DC83F104202257CF00788594 /* AddSubcategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubcategoryViewController.swift; sourceTree = "<group>"; };
+		DC83F1062027AE0C00788594 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		F0CAE26FFB6D9775B34A8DA3 /* Pods-AdminVolgaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminVolgaAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdminVolgaAppTests/Pods-AdminVolgaAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +122,7 @@
 				DC30104F201E6B6000CC52A7 /* LaunchScreen.storyboard */,
 				DC301052201E6B6000CC52A7 /* Info.plist */,
 				DC301071201FAD7500CC52A7 /* GoogleService-Info.plist */,
+				DC1245E0202CD69B00FB7CA5 /* DictionaryExtension.swift */,
 			);
 			path = AdminVolgaApp;
 			sourceTree = "<group>";
@@ -125,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				DC301069201E6EAA00CC52A7 /* CustomButton.swift */,
+				DC2CB03D2028EB1F007506FD /* AddItemViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -133,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				DC30106F201E766400CC52A7 /* ItemModel.swift */,
+				DC301073201FB19300CC52A7 /* DataManager.swift */,
+				DC301075201FB22000CC52A7 /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,6 +161,9 @@
 				DC301048201E6B6000CC52A7 /* MainViewController.swift */,
 				DC30106B201E72D200CC52A7 /* CategoryViewController.swift */,
 				DC30106D201E72E000CC52A7 /* SubcategoryViewController.swift */,
+				DC83F104202257CF00788594 /* AddSubcategoryViewController.swift */,
+				DC1245E2202CDFE200FB7CA5 /* ItemsListViewController.swift */,
+				DC83F1062027AE0C00788594 /* AddItemViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -295,10 +316,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AdminVolgaApp/Pods-AdminVolgaApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,7 +405,14 @@
 				DC301070201E766400CC52A7 /* ItemModel.swift in Sources */,
 				DC30106C201E72D200CC52A7 /* CategoryViewController.swift in Sources */,
 				DC301049201E6B6000CC52A7 /* MainViewController.swift in Sources */,
+				DC1245E1202CD69B00FB7CA5 /* DictionaryExtension.swift in Sources */,
+				DC301074201FB19300CC52A7 /* DataManager.swift in Sources */,
+				DC2CB03E2028EB1F007506FD /* AddItemViewCell.swift in Sources */,
+				DC83F105202257CF00788594 /* AddSubcategoryViewController.swift in Sources */,
+				DC83F1072027AE0C00788594 /* AddItemViewController.swift in Sources */,
 				DC30106E201E72E000CC52A7 /* SubcategoryViewController.swift in Sources */,
+				DC301076201FB22000CC52A7 /* CategoryModel.swift in Sources */,
+				DC1245E3202CDFE200FB7CA5 /* ItemsListViewController.swift in Sources */,
 				DC301047201E6B6000CC52A7 /* AppDelegate.swift in Sources */,
 				DC30106A201E6EAA00CC52A7 /* CustomButton.swift in Sources */,
 			);
@@ -474,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -525,7 +555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -541,6 +571,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RLMXU9393M;
 				INFOPLIST_FILE = AdminVolgaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "XC-ios-AdminVolgaApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -557,6 +588,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RLMXU9393M;
 				INFOPLIST_FILE = AdminVolgaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "XC-ios-AdminVolgaApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
